@@ -1,0 +1,30 @@
+.smaller {
+    font-size: 0.4em;
+  }
+  .big{
+    font-size: 1.25em;
+  }
+  .bigger{
+    font-size: 1.75em;
+  }
+  .svg-icon {
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+  }
+  .rounded-circle {
+    border-radius: 50%;
+  }
+  .svg-margin{
+    margin: -1px 0 -1px 0;
+  }
+  .flex-md-grow-1{
+    @include media-breakpoint-up("md"){
+      flex: 1;
+    }
+  }
+  .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
